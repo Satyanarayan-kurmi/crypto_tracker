@@ -42,10 +42,10 @@ function Header() {
   const history = useHistory();
 
   return (
-    <ThemeProvider theme={darkTheme}>
-      <AppBar color="transparent" position="static">
-        <Container>
-          <Toolbar>
+    <ThemeProvider theme={darkTheme} >
+      <AppBar  color="transparent" position="static" >
+        <Container >
+          <Toolbar >
             <Typography
               onClick={() => history.push(`/`)}
               variant="h6"

@@ -81,6 +81,9 @@ const CoinPage = () => {
   }, []);
 
   const useStyles = makeStyles((theme) => ({
+    banner: {
+      backgroundImage: "url(./sidecoin.jpg)",
+    },
     container: {
       display: "flex",
       [theme.breakpoints.down("md")]: {
@@ -98,6 +101,7 @@ const CoinPage = () => {
       alignItems: "center",
       marginTop: 25,
       borderRight: "2px solid grey",
+      
     },
     heading: {
       fontWeight: "bold",
@@ -134,7 +138,7 @@ const CoinPage = () => {
 
   return (
     <div className={classes.container}>
-      <div className={classes.sidebar}>
+      <div className={classes.sidebar}  >
         <img
           src={coin?.image.large}
           alt={coin?.name}
