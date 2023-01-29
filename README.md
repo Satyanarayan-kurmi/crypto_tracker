@@ -12,7 +12,7 @@ cryptocurrency tracker is a tool that allows users to monitor the price and othe
 1. React.js
 2. Node.js
 3. Material UI
-4  Firebase
+4. Firebase
 
 # Screenshots
 
